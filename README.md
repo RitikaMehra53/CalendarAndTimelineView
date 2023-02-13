@@ -16,4 +16,4 @@ https://user-images.githubusercontent.com/31307489/218376023-862c1e36-049c-485f-
 
 You can find a view like this in the official Calendar app by Outlook. This kind of duration based height adjustment is difficult to implement natively without the use of a Custom View. This code does all the heavy work for you and provides a clean API to tweak the settings easily using both xml atributes as well as through code.
 
-![Screenshot_20230210_112130](https://user-images.githubusercontent.com/31307489/218375737-56e41181-aa26-46df-b004-8566821f3dcf.png)
+![Screenshot_20230210_112130_5_40](https://user-images.githubusercontent.com/31307489/218377485-31576d7e-8621-41c8-8790-f14f1a1b93c9.png)
