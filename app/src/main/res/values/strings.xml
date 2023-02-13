@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalendarTimelineView</string>
+    <string name="sunday_one">SUN</string>
+    <string name="monday_one">MON</string>
+    <string name="tuesday_one">TUE</string>
+    <string name="wednesday_one">WED</string>
+    <string name="thursday_one">THU</string>
+    <string name="friday_one">FRI</string>
+    <string name="saturday_one">SAT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginRight="@dimen/_18dp">
+
+        <View
+            android:id="@+id/view_bg"
+            android:layout_width="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/appointment_bg_not_confirm"
+            android:backgroundTint="@color/appointment_not_confirm_view_bg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/view_padding"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_view"
+            android:layout_width="@dimen/_5dp"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/view_bg"
+            android:src="@drawable/ic_left_view_appointment"
+            app:tint="@color/appointment_not_confirm_view"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:textColor="@color/text_color"
+            app:layout_constraintLeft_toRightOf="@+id/iv_view"
+            android:layout_marginLeft="@dimen/_13dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_5dp"
+            android:maxWidth="@dimen/_120dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/tv_names2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:textColor="@color/text_color"
+            app:layout_constraintLeft_toRightOf="@+id/iv_view"
+            android:layout_marginLeft="@dimen/_13dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:maxWidth="@dimen/_120dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/tv_dr_name"
+            android:layout_width="@dimen/_150dp"
+            android:layout_height="@dimen/_16dp"
+            android:textSize="@dimen/_10sp"
+            android:fontFamily="@font/eina_02_regular"
+            android:textColor="@color/text_color"
+            app:layout_constraintLeft_toRightOf="@+id/iv_view"
+            android:layout_marginLeft="@dimen/_13dp"
+            android:singleLine="true" />
+
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:textSize="@dimen/_10sp"
+            android:fontFamily="@font/eina_02_regular"
+            android:textColor="@color/text_color"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="@dimen/_18dp"
+            android:layout_marginTop="@dimen/_5dp"/>
+
+        <TextView
+            android:id="@+id/tv_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:textSize="@dimen/_10sp"
+            android:fontFamily="@font/eina_02_regular"
+            android:textColor="@color/text_color"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginRight="@dimen/_18dp" />
+
+        <TextView
+            android:id="@+id/tv_procedure_name"
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sp"
+            android:fontFamily="@font/eina_02_regular"
+            android:textColor="@color/text_color"
+            android:text="PerEx, 3DImagehhjhjhjjgjhgjg r4rrewr grgrgregre rtretr"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="@dimen/_18dp"
+            android:ellipsize="start"
+            android:textAlignment="textEnd"
+            android:maxLines="1"
+            />
+
+
+        <View
+            android:id="@+id/view_padding"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_6dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dr_name"
+            app:layout_constraintLeft_toLeftOf="@+id/view_bg"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

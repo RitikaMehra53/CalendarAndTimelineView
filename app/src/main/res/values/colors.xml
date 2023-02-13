@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_grey">#858B9C</color>
+    <color name="text_color">#031926</color>
+    <color name="et_color">#363F57</color>
+    <color name="app_color">#0ACADC</color>
+    <color name="divider_color">#EBECEF</color>
+    <color name="view_all_bg">#F3F6F9</color>
+    <color name="appointment_not_confirm_view">#FF7596</color>
+    <color name="appointment_not_confirm_view_bg">#FFF1F5</color>
+    <color name="appointment_confirm_view">#0ADC8F</color>
+    <color name="appointment_confirm_view_bg">#DCF3EE</color>
+    <color name="pink">#FF7596</color>
+    <color name="lightGrey">#404040</color>
+    <color name="primaryPurple">#5868FF</color>
+    <color name="splash_color">#343D56</color>
+    <color name="purple">#9267B4</color>
+</resources>

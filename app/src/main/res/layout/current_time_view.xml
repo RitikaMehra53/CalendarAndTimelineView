@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.main.timeline.TimelineFragment"
+        >
+        <View
+            android:id="@+id/dividerw"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1dp"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:background="@color/purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/timeline_labelw"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/purple" />
+
+        <ImageView
+            android:layout_width="@dimen/_5dp"
+            android:layout_height="@dimen/_5dp"
+            android:src="@drawable/ic_1_circle"
+            app:tint="@color/purple"
+            app:layout_constraintLeft_toLeftOf="@+id/dividerw"
+            app:layout_constraintTop_toTopOf="@+id/timeline_labelw"
+            app:layout_constraintBottom_toBottomOf="@+id/timeline_labelw"
+            android:layout_marginLeft="@dimen/_2dp" />
+
+        <TextView
+            android:id="@+id/timeline_labelw"
+            android:layout_width="@dimen/_35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5dp"
+            android:gravity="end|center_vertical"
+            android:textAlignment="textEnd"
+            android:textColor="@color/purple"
+            android:textSize="@dimen/_8sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/dividerw"
+            tools:text="12 PM"
+            tools:textColor="@color/purple"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:layout_marginBottom="@dimen/_1dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
